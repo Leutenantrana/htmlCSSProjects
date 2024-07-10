@@ -1,0 +1,51 @@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+
+.search-bar{
+  display: block;
+  margin-bottom: 10px;
+}
+
+p{
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-family: Roboto,Arial;
+}
+body {
+  height: 1000px;
+  padding-top: 80px;
+  padding-left: 100px;
+  background-color: rgb(255, 255, 255);
+}
+
+
+
+.thumbnail{
+  width: 300px;
+}
+.video-title{
+ 
+  width: 250px;
+  margin-bottom: 14px;
+
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 14px;
+  line-height:23px;
+}
+.video-author{
+  font-family: Arial;
+  color: grey;
+  font-size: 14px;
+  margin-bottom: 8px;
+  
+}
+.video-stats{
+  font-family: Arial;
+  color: grey;
+  font-size: 14px;
+  margin-top: 0px
+
+}

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix payment checkout page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="centerContainer">
+        <div class="form">
+            <div class="header">
+                <p style="margin: 0px;"> Set up your credit or debit card</p>
+            </div>
+
+            <div class="visa-card-container">
+                <img src="VISA.png" alt="">
+                <img src="MASTERCARD.png" alt="">
+                <img src="AMEX.png" alt="">
+                <img src="DINERS.png" alt="">
+            </div>
+
+            <div class=" card-number-box">
+
+
+                <div style="margin-left: 20px;"> <input type="text" placeholder="Card number" style="border: none;"></div>
+                <div class="gap">
+                    <svg width="24" height="22" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="default-ltr-cache-4z3qvp e1svuwfo1" data-name="CreditCard" aria-hidden="true" color="rgb(128,128,128)"><path fill-rule="evenodd" clip-rule="evenodd" d="M0 6C0 4.34315 1.34315 3 3 3H21C22.6569 3 24 4.34315 24 6V18C24 19.6569 22.6569 21 21 21H3C1.34314 21 0 19.6569 0 18V6ZM3 5C2.44772 5 2 5.44772 2 6V8H22V6C22 5.44771 21.5523 5 21 5H3ZM2 18V10H22V18C22 18.5523 21.5523 19 21 19H3C2.44772 19 2 18.5523 2 18ZM16 16H20V14H16V16Z" fill="currentColor"></path></svg>
+                </div>
+            </div>
+
+            <div class="ex-cv-container">
+
+                <div class="ex-date" style="margin-left: ;">
+
+                    <div style="margin-left: 20px;"> <input type="text" placeholder="Expiration Date" style="border: 0px;"></div>
+                </div>
+                <div class="CVV">
+
+                    <div class="cvv"> <input type="text" placeholder="CVV" style="border: none;"></div>
+                    <div class="gap2"> <svg width="26" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="default-ltr-cache-4z3qvp e1svuwfo1" data-name="CircleQuestionMark" aria-hidden="true" color="#999999"><path fill-rule="evenodd" clip-rule="evenodd" d="M2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12ZM12 0C5.37258 0 0 5.37258 0 12C0 18.6274 5.37258 24 12 24C18.6274 24 24 18.6274 24 12C24 5.37258 18.6274 0 12 0ZM12 8C10.6831 8 10 8.74303 10 9.5H8C8 7.25697 10.0032 6 12 6C13.9968 6 16 7.25697 16 9.5C16 10.8487 14.9191 11.7679 13.8217 12.18C13.5572 12.2793 13.3322 12.4295 13.1858 12.5913C13.0452 12.7467 13 12.883 13 13V14H11V13C11 11.5649 12.1677 10.6647 13.1186 10.3076C13.8476 10.0339 14 9.64823 14 9.5C14 8.74303 13.3169 8 12 8ZM13.5 16.5C13.5 17.3284 12.8284 18 12 18C11.1716 18 10.5 17.3284 10.5 16.5C10.5 15.6716 11.1716 15 12 15C12.8284 15 13.5 15.6716 13.5 16.5Z" fill="currentColor"></path></svg></div>
+
+                </div>
+
+
+            </div>
+
+            <div class="nameCard">
+
+                <div style="margin-left: 20px;"><input type="text" placeholder="Name on Card" style="border: none;"> </div>
+            </div>
+
+            <div class="plan">
+                <div class="ppm">
+                    <div class="per-month"> $1.5/month</div>
+                    <div class="device"> Mobile</div>
+                </div>
+
+                <button class="btn"> Change</button>
+            </div>
+            <p class="any">Any payment above ₹ 2000 shall need additional authentication.</p>
+            <span style="font-size: 14px; color:rgb(27, 20, 20) ; margin: 0px; margin-bottom: 20px;">By checking the checkbox below, you agree to our Terms of Use, Privacy Statement, and that you are over 18. Netflix will automatically continue your membership and charge the membership fee (currently ₹ 149/month) to your payment method until you cancel. You may cancel at any time to avoid future charges.</span>
+            <div class="ui-binary-input"><input type="checkbox" class=" check-box" name="hasAcceptedTermsOfUse" id="cb_hasAcceptedTermsOfUse" value="true" tabindex="0" data-uia="field-hasAcceptedTermsOfUse"><label for="cb_hasAcceptedTermsOfUse" data-uia="field-hasAcceptedTermsOfUse+label"><span id="" data-uia="">I agree.</span></label>
+                <div class="helper"></div>
+            </div>
+            <button class="membership"> Start Membership</button>
+            <div class="footer">
+                <span style=" font-size: 13px; background-color: rgba(27, 20, 20, 0.164);"> This page is protected by Google reCAPTCHA to ensure you're not a bot. </span>
+            </div>
+
+        </div>
+
+
+
+    </div>
+    </div>
+
+
+
+
+
+</body>
+
+</html>

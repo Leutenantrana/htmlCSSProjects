@@ -1,0 +1,184 @@
+.inserting-header{
+  display: flex;
+  flex-direction: row;
+  height: 55px;
+  justify-content: space-between;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  z-index: 100;
+  background-color: blue;
+  background-image: url("youtube/css/dfd.jpg");
+  
+  border: 1px;
+  border-style: solid;
+  border-color: rgb(201, 199, 199);
+
+}
+.left-session{
+  display: flex;
+  align-items: center;
+  
+  
+}
+.hamburger-icon{
+  margin-left: 25px;
+  margin-right: 25px;
+  
+  height: 24px;
+  width: 24px;
+
+}
+.youtube-icon{
+  height: 20px;
+  
+}
+.middle-session{
+  display: flex;
+  
+  flex: 1;
+  max-width: 500px;
+  margin-left: 70px;
+  margin-right: 30px;
+  align-items: center;
+ 
+  
+
+}
+.search-bar{
+  height: 37px;
+  width: 350px;
+  font-family: Arial;
+  font-size: 15px;
+  padding-left: 10px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(211, 206, 206);
+  box-shadow: 1px 1px 5px rgba(116, 115, 115, 0.15);
+  margin-left: 20px;
+}
+.search-icon{
+  height: 33px;
+  width: 55px;
+  
+ 
+
+
+}
+.search-container, 
+.voice-container,
+.upload-container,
+.noti-container,
+.app-container,{
+ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  position: relative;
+ 
+}
+.search-container .tailtip,
+.voice-container .tailtip ,
+.upload-container .tailtip,
+.noti-container .tailtip,
+.app-container .tailtip{
+  position: absolute;
+  bottom: -40px;
+  font: 14px;
+  font-family: Arial;
+  background-color:rgb(218, 213, 213);
+  padding:2px 4px;
+  border-radius:3px ;
+  opacity: 0;
+  pointer-events:none ;
+  white-space: nowrap;
+  display: flex;
+ 
+
+
+}
+.search-container:hover .tailtip,
+.voice-container:hover .tailtip,
+.upload-container:hover .tailtip,
+.noti-container:hover .tailtip,
+.app-container:hover .tailtip{
+  opacity: 1;
+
+}
+
+.b-1{
+  border: 1px;
+  border-style: solid;
+  border-color: rgb(173, 170, 170);
+  margin-left: -5px;
+  margin-right: 20px;
+}
+.voice-icon{
+  height: 26px;
+  width: 26px;
+  border: 1px;
+}
+.b-2{
+  border-radius: 50%;
+  border: none;
+
+  
+}
+
+.right-session{
+  width: 230px;
+  
+  display: flex;
+  align-items: center;
+
+}
+.upload-icon{
+  height: 25px;
+  width: 25px;
+  margin-left: 5px;
+  margin-right: 25px;
+
+}
+
+.nine-dots{
+  height: 27px;
+  width: 27px;
+  margin-right: 25px;
+
+
+}
+.notification-icon{
+  height: 25px;
+  width: 25px;
+  margin-right: 25px;
+
+}
+.nots{
+  display: flex;
+  position: relative;
+}
+.nots div{
+  background-color: rgb(234, 67, 67);
+  color: white;
+  width: 16px; 
+  height: 16px;
+  border-radius:8px ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: -4px;
+  right: 22px;
+  font-family: Arial;
+  font-size: 10px;
+
+}
+.pro-pic{
+  height: 33px;
+  width: 33px;
+
+}
+
+

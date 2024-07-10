@@ -1,0 +1,56 @@
+body{
+  background-color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  color: azure;
+}
+.sf1{
+  width: 50%;
+  margin-left: 10%;
+  text-align: center;
+  border: 3px solid white;
+  width: 330px;
+
+}
+.garuds{
+  border: 5px solid wheat;
+}
+
+.sf2{
+  width: 50%;
+  margin-left: 60%;
+  text-align: center;
+  border: 3px solid white;
+  width: 330px;
+
+}
+.sf3{
+  width: 50%;
+  margin-left: 10%;
+  text-align: center;
+  border: 3px solid white;
+  width: 285px;
+
+}
+.sf4{
+  width: 50%;
+  margin-left: 60%;
+  text-align: center;
+  border: 3px solid white;
+  width: 330px;
+
+}
+.nsg{
+  width: 330px;
+
+}
+.sf5{
+  width: 50%;
+  margin-left: 10%;
+  text-align: center;
+  border: 3px solid white;
+  width: 330px;
+
+}
+.spg{
+  width: 330px;
+}

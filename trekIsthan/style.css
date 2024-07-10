@@ -1,0 +1,144 @@
+.main-container {
+    margin-top: 20px;
+    position: relative;
+}
+
+..logo {
+    position: absolute;
+    right: 50px;
+    left: 25px;
+    width: 203px;
+    border-radius: 5px;
+    border: 3px solid orange;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    height: 100px;
+}
+
+.header-content {
+    display: flex;
+    flex-direction: column;
+    width: 1200px;
+    margin-left: 50px;
+    justify-content: center;
+}
+
+.row1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    justify-content: space-around;
+    margin-left: 500px;
+    margin-bottom: 20px;
+}
+
+.contact {
+    width: 80px;
+    border: 2px solid orange;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    margin-right: 50px;
+}
+
+.about {
+    width: 80px;
+    border: 2px solid orange;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+.row2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 500px;
+    margin-bottom: 20px;
+}
+
+.plan {
+    margin-right: 250px;
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: blueviolet;
+}
+
+.social-meds {
+    display: flex;
+    flex-direction: row;
+}
+
+.svgs {
+    width: 25px;
+    height: 25px;
+    margin-left: 20px;
+    margin-right: 2opx;
+}
+
+.header2 {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+}
+
+.location {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    right: 50px;
+    align-items: center;
+    margin-right: 60px;
+}
+
+.images {
+    margin-top: 20px;
+}
+
+.rudra {
+    width: 600px;
+    height: 568px;
+    margin-right: 250px;
+}
+
+.info {
+    border: 3px solid black;
+    height: 500px;
+    border-right: none;
+    background-color: rgba(255, 158, 88, 0.879);
+    margin-left: 100px;
+}
+
+.logo-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.images {
+    display: flex;
+    flex-direction: row;
+}
+
+.details {
+    margin-left: 50px;
+    font-family: sans-serif;
+}
+
+.h4 {
+    font-size: 2px;
+}
+
+.images1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 200px;
+}
